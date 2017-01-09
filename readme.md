@@ -21,15 +21,12 @@ php artisan migrate
 - User follows confirmation link to activate his account.
 - Accounts with same email address will always share the same password.
 
----
 ### Signing in
 - The user will enter his email, password and login type to choose either an Orchestra Officer, Musician or Member.
 
----
 ### Orchestra Officer members addition
 - I assumed that the Members are Musicians that will join the Orchestra Officer’s Orchestra, so their type will be changed to Members and they can login now as Members.
 
----
 ### Forgotten password
 - All users have an ability to reset their password, including members.
 -Resetting password is done using the steps mentioned in the scenario.
